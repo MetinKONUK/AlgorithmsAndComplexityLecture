@@ -8,6 +8,7 @@ int SumOfArrayOfNNumbersDivideByTwo(vector<int>, int, int);
 double Power(int, int);
 long long Fibonacci(int);
 int LinearSearch(std::vector<int>, int, int);
+int BinarySearch(vector<int>, int, int, int);
 
 
 int main() {
@@ -17,7 +18,8 @@ int main() {
 	//cout << SumOfArrayOfNNumbersDivideByTwo(A, 0, A.size()-1) << endl;
 	//cout << Power(3, 5) << endl;
 	//cout << Fibonacci(5) << endl;
-	cout << LinearSearch(A, A.size()-1, 13) << endl;
+	//cout << LinearSearch(A, A.size()-1, 13) << endl;
+	cout << BinarySearch(A, 0, A.size()-1, 5) << endl;
 
 	return 0;
 }
