@@ -17,7 +17,7 @@ int main() {
 	//cout << SumOfArrayOfNNumbersDivideByTwo(A, 0, A.size()-1) << endl;
 	//cout << Power(3, 5) << endl;
 	//cout << Fibonacci(5) << endl;
-	cout << LinearSearch(A, 0, 31) << endl;
+	cout << LinearSearch(A, A.size()-1, 13) << endl;
 
 	return 0;
 }
