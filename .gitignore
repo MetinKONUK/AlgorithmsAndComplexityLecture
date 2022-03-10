@@ -6,8 +6,9 @@
 *.vcxproj
 *.vcxproj.filters
 *.vcxproj.user
-*.vs
+.vs/
 Debug/
+x64/
 ### C++ ###
 # Prerequisites
 *.d
