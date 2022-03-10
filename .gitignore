@@ -2,11 +2,13 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=c++
 
 
+*.sln
 *.vcxproj
 *.vcxproj.filters
 *.vcxproj.user
-*.vs
+.vs/
 Debug/
+x64/
 ### C++ ###
 # Prerequisites
 *.d
